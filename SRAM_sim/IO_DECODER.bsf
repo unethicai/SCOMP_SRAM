@@ -1,0 +1,323 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 256 720)
+	(text "IO_DECODER" (rect 5 0 78 12)(font "Arial" ))
+	(text "inst" (rect 8 688 25 700)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IO_ADDR[7..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "IO_ADDR[7..0]" (rect 21 27 96 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "IO_CYCLE" (rect 0 0 55 12)(font "Arial" ))
+		(text "IO_CYCLE" (rect 21 43 76 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "SWITCH_EN" (rect 0 0 64 12)(font "Arial" ))
+		(text "SWITCH_EN" (rect 155 27 219 39)(font "Arial" ))
+		(line (pt 240 32)(pt 224 32)(line_width 1))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "LED_EN" (rect 0 0 42 12)(font "Arial" ))
+		(text "LED_EN" (rect 177 43 219 55)(font "Arial" ))
+		(line (pt 240 48)(pt 224 48)(line_width 1))
+	)
+	(port
+		(pt 240 64)
+		(output)
+		(text "TIMER_EN" (rect 0 0 54 12)(font "Arial" ))
+		(text "TIMER_EN" (rect 165 59 219 71)(font "Arial" ))
+		(line (pt 240 64)(pt 224 64)(line_width 1))
+	)
+	(port
+		(pt 240 80)
+		(output)
+		(text "DIG_IN_EN" (rect 0 0 59 12)(font "Arial" ))
+		(text "DIG_IN_EN" (rect 160 75 219 87)(font "Arial" ))
+		(line (pt 240 80)(pt 224 80)(line_width 1))
+	)
+	(port
+		(pt 240 96)
+		(output)
+		(text "HEX1_EN" (rect 0 0 48 12)(font "Arial" ))
+		(text "HEX1_EN" (rect 171 91 219 103)(font "Arial" ))
+		(line (pt 240 96)(pt 224 96)(line_width 1))
+	)
+	(port
+		(pt 240 112)
+		(output)
+		(text "HEX2_EN" (rect 0 0 48 12)(font "Arial" ))
+		(text "HEX2_EN" (rect 171 107 219 119)(font "Arial" ))
+		(line (pt 240 112)(pt 224 112)(line_width 1))
+	)
+	(port
+		(pt 240 128)
+		(output)
+		(text "LCD_EN" (rect 0 0 43 12)(font "Arial" ))
+		(text "LCD_EN" (rect 176 123 219 135)(font "Arial" ))
+		(line (pt 240 128)(pt 224 128)(line_width 1))
+	)
+	(port
+		(pt 240 144)
+		(output)
+		(text "LED2_EN" (rect 0 0 48 12)(font "Arial" ))
+		(text "LED2_EN" (rect 171 139 219 151)(font "Arial" ))
+		(line (pt 240 144)(pt 224 144)(line_width 1))
+	)
+	(port
+		(pt 240 160)
+		(output)
+		(text "BEEP_EN" (rect 0 0 49 12)(font "Arial" ))
+		(text "BEEP_EN" (rect 170 155 219 167)(font "Arial" ))
+		(line (pt 240 160)(pt 224 160)(line_width 1))
+	)
+	(port
+		(pt 240 176)
+		(output)
+		(text "CT_EN" (rect 0 0 35 12)(font "Arial" ))
+		(text "CT_EN" (rect 184 171 219 183)(font "Arial" ))
+		(line (pt 240 176)(pt 224 176)(line_width 1))
+	)
+	(port
+		(pt 240 192)
+		(output)
+		(text "L_POS_EN" (rect 0 0 55 12)(font "Arial" ))
+		(text "L_POS_EN" (rect 164 187 219 199)(font "Arial" ))
+		(line (pt 240 192)(pt 224 192)(line_width 1))
+	)
+	(port
+		(pt 240 208)
+		(output)
+		(text "L_VEL_EN" (rect 0 0 53 12)(font "Arial" ))
+		(text "L_VEL_EN" (rect 166 203 219 215)(font "Arial" ))
+		(line (pt 240 208)(pt 224 208)(line_width 1))
+	)
+	(port
+		(pt 240 224)
+		(output)
+		(text "L_VELCTRL_EN" (rect 0 0 81 12)(font "Arial" ))
+		(text "L_VELCTRL_EN" (rect 138 219 219 231)(font "Arial" ))
+		(line (pt 240 224)(pt 224 224)(line_width 1))
+	)
+	(port
+		(pt 240 240)
+		(output)
+		(text "R_POS_EN" (rect 0 0 57 12)(font "Arial" ))
+		(text "R_POS_EN" (rect 162 235 219 247)(font "Arial" ))
+		(line (pt 240 240)(pt 224 240)(line_width 1))
+	)
+	(port
+		(pt 240 256)
+		(output)
+		(text "R_VEL_EN" (rect 0 0 55 12)(font "Arial" ))
+		(text "R_VEL_EN" (rect 164 251 219 263)(font "Arial" ))
+		(line (pt 240 256)(pt 224 256)(line_width 1))
+	)
+	(port
+		(pt 240 272)
+		(output)
+		(text "R_VELCTRL_EN" (rect 0 0 83 12)(font "Arial" ))
+		(text "R_VELCTRL_EN" (rect 136 267 219 279)(font "Arial" ))
+		(line (pt 240 272)(pt 224 272)(line_width 1))
+	)
+	(port
+		(pt 240 288)
+		(output)
+		(text "SONAR_EN" (rect 0 0 60 12)(font "Arial" ))
+		(text "SONAR_EN" (rect 159 283 219 295)(font "Arial" ))
+		(line (pt 240 288)(pt 224 288)(line_width 1))
+	)
+	(port
+		(pt 240 304)
+		(output)
+		(text "I2C_CMD_EN" (rect 0 0 69 12)(font "Arial" ))
+		(text "I2C_CMD_EN" (rect 150 299 219 311)(font "Arial" ))
+		(line (pt 240 304)(pt 224 304)(line_width 1))
+	)
+	(port
+		(pt 240 320)
+		(output)
+		(text "I2C_DATA_EN" (rect 0 0 73 12)(font "Arial" ))
+		(text "I2C_DATA_EN" (rect 146 315 219 327)(font "Arial" ))
+		(line (pt 240 320)(pt 224 320)(line_width 1))
+	)
+	(port
+		(pt 240 336)
+		(output)
+		(text "I2C_RDY_EN" (rect 0 0 69 12)(font "Arial" ))
+		(text "I2C_RDY_EN" (rect 150 331 219 343)(font "Arial" ))
+		(line (pt 240 336)(pt 224 336)(line_width 1))
+	)
+	(port
+		(pt 240 352)
+		(output)
+		(text "UART_D_EN" (rect 0 0 64 12)(font "Arial" ))
+		(text "UART_D_EN" (rect 155 347 219 359)(font "Arial" ))
+		(line (pt 240 352)(pt 224 352)(line_width 1))
+	)
+	(port
+		(pt 240 368)
+		(output)
+		(text "UART_S_EN" (rect 0 0 63 12)(font "Arial" ))
+		(text "UART_S_EN" (rect 156 363 219 375)(font "Arial" ))
+		(line (pt 240 368)(pt 224 368)(line_width 1))
+	)
+	(port
+		(pt 240 384)
+		(output)
+		(text "XPOS_EN" (rect 0 0 49 12)(font "Arial" ))
+		(text "XPOS_EN" (rect 170 379 219 391)(font "Arial" ))
+		(line (pt 240 384)(pt 224 384)(line_width 1))
+	)
+	(port
+		(pt 240 400)
+		(output)
+		(text "YPOS_EN" (rect 0 0 51 12)(font "Arial" ))
+		(text "YPOS_EN" (rect 168 395 219 407)(font "Arial" ))
+		(line (pt 240 400)(pt 224 400)(line_width 1))
+	)
+	(port
+		(pt 240 416)
+		(output)
+		(text "TPOS_EN" (rect 0 0 49 12)(font "Arial" ))
+		(text "TPOS_EN" (rect 170 411 219 423)(font "Arial" ))
+		(line (pt 240 416)(pt 224 416)(line_width 1))
+	)
+	(port
+		(pt 240 432)
+		(output)
+		(text "POS_RSTN" (rect 0 0 57 12)(font "Arial" ))
+		(text "POS_RSTN" (rect 162 427 219 439)(font "Arial" ))
+		(line (pt 240 432)(pt 224 432)(line_width 1))
+	)
+	(port
+		(pt 240 448)
+		(output)
+		(text "RIN_EN" (rect 0 0 41 12)(font "Arial" ))
+		(text "RIN_EN" (rect 178 443 219 455)(font "Arial" ))
+		(line (pt 240 448)(pt 224 448)(line_width 1))
+	)
+	(port
+		(pt 240 464)
+		(output)
+		(text "LIN_EN" (rect 0 0 38 12)(font "Arial" ))
+		(text "LIN_EN" (rect 181 459 219 471)(font "Arial" ))
+		(line (pt 240 464)(pt 224 464)(line_width 1))
+	)
+	(port
+		(pt 240 480)
+		(output)
+		(text "IRHI_EN" (rect 0 0 44 12)(font "Arial" ))
+		(text "IRHI_EN" (rect 175 475 219 487)(font "Arial" ))
+		(line (pt 240 480)(pt 224 480)(line_width 1))
+	)
+	(port
+		(pt 240 496)
+		(output)
+		(text "IRLO_EN" (rect 0 0 47 12)(font "Arial" ))
+		(text "IRLO_EN" (rect 172 491 219 503)(font "Arial" ))
+		(line (pt 240 496)(pt 224 496)(line_width 1))
+	)
+	(port
+		(pt 240 512)
+		(output)
+		(text "SRAM_ADDR_BANK0" (rect 0 0 109 12)(font "Arial" ))
+		(text "SRAM_ADDR_BANK0" (rect 110 507 219 519)(font "Arial" ))
+		(line (pt 240 512)(pt 224 512)(line_width 1))
+	)
+	(port
+		(pt 240 528)
+		(output)
+		(text "SRAM_ADDR_BANK1" (rect 0 0 109 12)(font "Arial" ))
+		(text "SRAM_ADDR_BANK1" (rect 110 523 219 535)(font "Arial" ))
+		(line (pt 240 528)(pt 224 528)(line_width 1))
+	)
+	(port
+		(pt 240 544)
+		(output)
+		(text "SRAM_ADDR_BANK2" (rect 0 0 109 12)(font "Arial" ))
+		(text "SRAM_ADDR_BANK2" (rect 110 539 219 551)(font "Arial" ))
+		(line (pt 240 544)(pt 224 544)(line_width 1))
+	)
+	(port
+		(pt 240 560)
+		(output)
+		(text "SRAM_ADDR_BANK3" (rect 0 0 109 12)(font "Arial" ))
+		(text "SRAM_ADDR_BANK3" (rect 110 555 219 567)(font "Arial" ))
+		(line (pt 240 560)(pt 224 560)(line_width 1))
+	)
+	(port
+		(pt 240 576)
+		(output)
+		(text "SRAM_ADDR_LOW" (rect 0 0 99 12)(font "Arial" ))
+		(text "SRAM_ADDR_LOW" (rect 120 571 219 583)(font "Arial" ))
+		(line (pt 240 576)(pt 224 576)(line_width 1))
+	)
+	(port
+		(pt 240 592)
+		(output)
+		(text "SRAM_ADDR_HIGH" (rect 0 0 102 12)(font "Arial" ))
+		(text "SRAM_ADDR_HIGH" (rect 117 587 219 599)(font "Arial" ))
+		(line (pt 240 592)(pt 224 592)(line_width 1))
+	)
+	(port
+		(pt 240 608)
+		(output)
+		(text "SRAM_JUMP_OFFSET" (rect 0 0 114 12)(font "Arial" ))
+		(text "SRAM_JUMP_OFFSET" (rect 105 603 219 615)(font "Arial" ))
+		(line (pt 240 608)(pt 224 608)(line_width 1))
+	)
+	(port
+		(pt 240 624)
+		(output)
+		(text "SRAM_DATA" (rect 0 0 64 12)(font "Arial" ))
+		(text "SRAM_DATA" (rect 155 619 219 631)(font "Arial" ))
+		(line (pt 240 624)(pt 224 624)(line_width 1))
+	)
+	(port
+		(pt 240 640)
+		(output)
+		(text "SRAM_DATA_INCR" (rect 0 0 99 12)(font "Arial" ))
+		(text "SRAM_DATA_INCR" (rect 120 635 219 647)(font "Arial" ))
+		(line (pt 240 640)(pt 224 640)(line_width 1))
+	)
+	(port
+		(pt 240 656)
+		(output)
+		(text "SRAM_DATA_DECR" (rect 0 0 102 12)(font "Arial" ))
+		(text "SRAM_DATA_DECR" (rect 117 651 219 663)(font "Arial" ))
+		(line (pt 240 656)(pt 224 656)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 688)(line_width 1))
+	)
+)

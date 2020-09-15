@@ -1,0 +1,25 @@
+-- Altera Memory Initialization File (MIF)
+
+DEPTH = 2048;
+WIDTH = 16;
+
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+
+CONTENT
+  BEGIN
+    [000..7FF] : 0000;  -- Default to NOP
+
+           000 : B805;  --                   LOADI 5
+           001 : 9817;  --                   OUT SRAM_DATA
+           002 : B806;  --                   LOADI 6
+           003 : 9017;  --                   IN SRAM_DATA
+           004 : B808;  --                   LOADI 8
+           005 : 9810;  --                   OUT SRAM_ADDR_BANK0
+           006 : B853;  --                   LOADI &H53
+           007 : 9818;  --                   OUT SRAM_DATA_INCR
+           008 : B832;  --                   LOADI &H32
+           009 : 9819;  --                   OUT SRAM_DATA_DECR
+           00A : 9018;  --                   IN SRAM_DATA_INCR
+           00B : 9017;  --                   IN SRAM_DATA
+  END;
